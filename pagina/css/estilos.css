@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../imagenes/fondito.PNG);
+    background-size: cover;
+    
+}
+
+.form-body {
+    width: 400px;
+    min-width: 300px;
+    border-radius: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;   
+    border: solid 2px #000;
+    margin: 10px;
+}
+
+.form-body {
+    width: 300 px;
+    height: 420 px;
+    background: #fff;
+    color: rgb(211, 20, 20);
+    top: 60%;
+    left: 50%;
+    box-sizing: border-box;
+    padding: 10px 1px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.form-body img {
+    width: 140px;
+    display: block;
+    margin: 20px auto;
+}
+
+.text {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:black
+}
+
+.form-body input{
+    display:block;
+    margin:auto;
+    margin-top: 10px;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 15px;
+    outline: none;    
+}
+
+.form-body input[type="password"] {
+    margin-top: 15px;
+}
+
+.form-body button {
+    display:block;
+    margin:auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 75%;
+    background: red;
+    color: white;
+    border: radius 2px;
+    cursor: pointer;
+    outline: none;
+    transition: all.5s ease;
+    font-size: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: rgb(0, 0, 0);
+    
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover {
+    background-color: rgb(233, 229, 229);
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgb(233, 229, 229);
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical li:hover {
+    background-color: rgb(202, 202, 202);
+
+}
+
+.menu-vertical li a {
+    display: block;
+    color: black;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+}
+
+
+
